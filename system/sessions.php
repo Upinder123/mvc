@@ -32,5 +32,5 @@ public function isexpired(){
     }
     }
 }
-/* */
+/* sessions lead to a lot of loopholes so they need to be implemented carefully */
 ?>
