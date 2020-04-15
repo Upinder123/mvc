@@ -24,7 +24,7 @@ class router{
         $this->path = $path;
     }
     function getController(){
-        $route = $_SERVER['REQUEST_URI'];
+        $route = $_SERVER['REQUEST_URI']; 
 
         if (empty($route)){
             $route = 'index';
